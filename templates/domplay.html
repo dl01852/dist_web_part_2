@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        a{
+            color: yellow;
+        }
+        .highlighted {
+            background-color:yellow;
+            color: black;
+        }
+        p{
+            margin-left:5%;
+            margin-right:5%;
+        }
+        ul{
+            margin-left:10%;
+        }
+        h1, h3
+        {
+            text-align: center;
+        }
+        .nav {
+
+            border-top: 3px dashed lightblue;
+        }
+    </style>
+</head>
+<body>
+
+<h1 id="bigheading" class="highlighted">[bigheading] DHTML Object Model</h1>
+<h3 id="smallheading"> [smallheading] Element Functionality</h3>
+
+<p id="para1">[para1] The Document Object Model (DOM) allows for quick, dynamic access to all elements in an HTML5 document for manipulation with JavaScript</p>
+<p id="para2">[para2] For more information, check out the "JavaScript and the DOM" section of Deitel's <a id="link" href="http://www.deitel.com/javascript">[link] JavaScript Resource Center</a></p>
+<p id="para3">[para3] The buttons below demonstrate:(list)</p>
+<ul>
+    <li id="item1">[item1] getElementById and parentNode</li>
+    <li id="item2">[item2] insertBefore and appendChild</li>
+    <li id="item3">[item3] replaceChild and removeChild</li>
+</ul>
+<div id="nav" class="nav">
+    <form onsubmit="return false" action = "#">
+        <p><input type = "text" id="gbi" value="bigheading">
+        </p>
+    </form>
+</div>
+</body>
+</html>
